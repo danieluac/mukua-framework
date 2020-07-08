@@ -1,0 +1,28 @@
+{
+    "name": "mukua/mukua",
+    "type": "library",
+    "description": "Mukua is a simple framework for database manipulation",
+    "homepage": "https://github.com/danieluac/mucuaApi",
+    "license": "MIT",
+    "author":{
+            "name": "Daniel AC",
+            "email": "danieluac2@gmail.com"
+        },
+    "autoload":  {
+        "classmap": [
+            "App/"
+        ],
+       "psr-4": {
+           "App\\": "App/"
+       },
+       "files": [
+           "App/Files/FunctionHelpers.php"
+       ],
+       "namespaces":{
+        "App\\" : "MukuaKernel/Route/RouteModule"
+       }
+    },
+    "require": {
+        "php" : ">=5.6.30"
+    }
+}
